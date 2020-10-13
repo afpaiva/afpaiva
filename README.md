@@ -4,7 +4,7 @@
 
 🌱 As a curious for development I studied by myself **HTML**(1998), **CSS** (2004), and **ASP** (2004) with a few of **SQL**. On 2004 I developed my e-commerce website, a handcraft works store named Dobalaio and then, an online music school, for bassists named ToqueMaisBaixo. This school had a social media look, where students exchanges experiences through messages and audio.
 
-⚡ After some web works, **PHP**, and **Unity 3D** (**C#**) studies, I decided to dive on programming field. So I started my second graduation, willing to change my career, and work on a technology and development Company abroad (Canada-Vancouver-BC). I'm working on some side projects using **JavaScript**, **NodeJS**, **React and React-Native**.
+⚡ After some web works, **PHP**, and **Unity 3D** (**C#**) studies, I decided to dive on programming field. So I started my second graduation, willing to change my career, and work on a technology and development Company abroad. I'm working on some side projects using **JavaScript**, **NodeJS**, **React and React-Native**.
 
 📫 My contacts: 
 [LinkedIn](https://www.linkedin.com/in/afpaiva/) | 
