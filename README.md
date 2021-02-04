@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+### Hi I'm Andre Paiva 👋
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🔭 I'm a graduated (building) Architect (2003) but always working with computer & graphics. I learned programming with my father on 1993, who introduced me **Clipper**. 
 
-## Available Scripts
+🌱 As a curious for development I studied by myself **HTML**(1998), **CSS** (2004), and **ASP** (2004) with a few of **SQL**. On 2004 I developed my e-commerce website, a handcraft works store named Dobalaio and then, an online music school, for bassists named ToqueMaisBaixo. This school had a social media look, where students exchanges experiences through messages and audio.
 
-In the project directory, you can run:
+⚡ After some web works, **PHP**, and **Unity 3D** (**C#**) studies, I decided to dive on programming field. So I started my second graduation, willing to change my career, and work on a technology and development Company abroad. I have been working on some side projects using **JavaScript**, **NodeJS**, **React and React-Native**.
 
-### `yarn start`
+📫 My contacts: 
+[LinkedIn](https://www.linkedin.com/in/afpaiva/) | 
+[StackOverflowStory](https://stackoverflow.com/story/afpaiva) |
+[My-DEV-Portfolio](http://www.ensaios3d.com/andrepaiva/) | 
+[My-CG-3D-Portfolio](http://www.ensaios3d.com/) 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!--
+**afpaiva/afpaiva** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Here are some ideas to get you started:
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
