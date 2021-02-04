@@ -29,6 +29,7 @@ export const Container = styled.div`
   }
 
   h3{
+    font-size: 17pt;
     margin: 0px;
   }
 

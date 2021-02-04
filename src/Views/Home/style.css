@@ -6,3 +6,27 @@ body{
 html{
   scroll-behavior: smooth;
 }
+
+.generic-button-work{
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #30587C;
+  width: 160px;
+  height: 50px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.generic-button-work:hover{
+  opacity: .85;
+}
+
+.generic-button-work a{
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  font-size: 11pt;
+}

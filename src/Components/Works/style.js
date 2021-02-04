@@ -3,9 +3,6 @@ import styled from 'styled-components';
 export const Container = styled.div`
 
   width: 100%;
-  height: 500px;
-  background-color: #dbdbdb;
-
   display: flex;
   flex-direction: row;
 
@@ -13,13 +10,14 @@ export const Container = styled.div`
 
 export const Details = styled.div`
 
+  display: flex;
+  flex-direction: row;
+
   padding: 20px;
-  width: 40vw;
+  width: 60vw;
   color: #292929;
 
   text-align: justify;
-
-  background-color: lightgray;
 
   h2{
     margin: 0px;
@@ -30,17 +28,28 @@ export const Details = styled.div`
     line-height: 42px;
   }
 
+  .det-container{
+    width: 50vw;
+    max-width: 500px;
+  }
+
   .icons{
     display: flex;
     flex-direction: row;
+  }
+
+  [css="logo"]{
+    fill: #292929;
+    width: 50px;
+    height: 50px;
+    margin: 20px 5px 0px 5px;
   }
 
 `
 
 export const Image = styled.div`
 
-  width: 45vw;
-  height: 250px;
+  width: 40vw;
   background-position: center;
 
 `
