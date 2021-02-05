@@ -1,15 +1,19 @@
 import * as S from './style';
-import bgdVideo from '../../Assets/Videos/wingsquest.mp4';
+import videoWquest from '../../Assets/Videos/wingsquest.mp4';
+import videoMagnet from '../../Assets/Videos/magnetismo.mp4';
+import videoCloud from '../../Assets/Videos/cloudhunter.mp4';
 
-function VideoBar({name}){
+function VideoBar({name, videoHeight, videoWidth}){
 
   return(
-    <S.Container>
+    <S.Container style={{height:`${videoHeight}px`,maxWidth:`${videoWidth}px`}}>
       <video className="video" autoPlay loop muted>
         {name === 'wingsquest' &&
-        <source src={bgdVideo} type='video/mp4' />}
+        <source src={videoWquest} type='video/mp4' />}
         {name === 'magnetismo' &&
-          <source src={bgdVideo} type='video/mp4' />}
+          <source src={videoMagnet} type='video/mp4' />}
+        {name === 'cloudhunter' &&
+          <source src={videoCloud} type='video/mp4' />}
       </video>
     </S.Container>
   );

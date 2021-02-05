@@ -8,7 +8,6 @@ html{
 }
 
 .generic-button-work{
-  align-self: flex-end;
   display: flex;
   align-items: center;
   justify-content: center;

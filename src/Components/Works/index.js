@@ -1,4 +1,5 @@
 import * as S from './style';
+import VideoBar from '../../Components/VideoBar';
 import { ReactComponent as LogoUnity} from '../../Assets/Images/logo_unity.svg';
 import { ReactComponent as LogoBlender} from '../../Assets/Images/logo_blender.svg';
 import { ReactComponent as LogoCSharp} from '../../Assets/Images/logo_csharp.svg';
@@ -18,46 +19,52 @@ function Works({
   title,
   background,
   image,
-  tech
+  video,
+  tech,
+  imageType
   }) {
 
   function Det() {
     return (
       <div className="det-container">
-        <h2>{title}</h2>
-        <p>{description1}</p>
-        <p>{description2}</p>
-        <div className="icons">
-          {
-            tech.map((e) => {
-              if (e === 'unity')
-              return <LogoUnity css="logo"/>
-              else if (e === 'blender')
-              return <LogoBlender css="logo"/>
-              else if (e === 'csharp')
-              return <LogoCSharp css="logo"/>
-              else if (e === 'cpp')
-              return <LogoCpp css="logo"/>
-              else if (e === 'freelgut')
-              return <LogoFreeglut css="logo"/>
-              else if (e === 'js')
-              return <LogoJS css="logo"/>
-              else if (e === 'mysql')
-              return <LogoMysql css="logo"/>
-              else if (e === 'php')
-              return <LogoPHP css="logo"/>
-              else if (e === 'react')
-              return <LogoReact css="logo"/>
-              else if (e === 'three')
-              return <LogoThree css="logo"/>
-          })}
+        <div>
+          <h2>{title}</h2>
+          <p>{description1}</p>
+          <p>{description2}</p>
         </div>
-        <hr/>
-        { tech[0]!="unity" &&
-          <div  className="generic-button-work">
-            <a href={link} target="_blank">Check this work</a>
+        <div>
+          <div className="icons">
+            {
+              tech.map((e) => {
+                if (e === 'unity')
+                return <LogoUnity css="logo"/>
+                else if (e === 'blender')
+                return <LogoBlender css="logo"/>
+                else if (e === 'csharp')
+                return <LogoCSharp css="logo"/>
+                else if (e === 'cpp')
+                return <LogoCpp css="logo"/>
+                else if (e === 'freeglut')
+                return <LogoFreeglut css="logo" style={{width:`100px`}}/>
+                else if (e === 'js')
+                return <LogoJS css="logo"/>
+                else if (e === 'mysql')
+                return <LogoMysql css="logo"/>
+                else if (e === 'php')
+                return <LogoPHP css="logo"/>
+                else if (e === 'react')
+                return <LogoReact css="logo"/>
+                else if (e === 'three')
+                return <LogoThree css="logo"/>
+            })}
           </div>
-        }
+          <hr/>
+          { (tech[0]!="unity") &&
+            <div  className="generic-button-work">
+              <a href={link} target="_blank">Check this work</a>
+            </div>
+          }
+        </div>
       </div>)}
 
   background === 'light' ?
@@ -67,7 +74,13 @@ function Works({
   if (type === 'right'){
     return(
       <S.Container style={{background:`${background}`}}>
-        <S.Image style={{backgroundImage:`url(${image})`}}/>
+        
+       {imageType === 'logo' ?
+            <S.Image style={{backgroundImage:`url(${image})`, backgroundSize: `320px`, backgroundPositionX: `${type}`}}/>
+            :
+            <S.Image style={{backgroundImage:`url(${image})`, backgroundPositionX: `${type}`}}/>
+        }
+
         <S.Details><Det/></S.Details>
       </S.Container>
     );
@@ -76,7 +89,15 @@ function Works({
     return(
       <S.Container style={{background:`${background}`}}>
         <S.Details style={{justifyContent: `flex-end`}}><Det/></S.Details>
-        <S.Image style={{backgroundImage:`url(${image})`}}/>
+        {
+          video === 'magnetismo' ? 
+          <VideoBar name="magnetismo" videoHeight="400" videoWidth="400"/>
+          : 
+            imageType === 'logo' ?
+            <S.Image style={{backgroundImage:`url(${image})`, backgroundSize: `320px`, backgroundPositionX: `${type}`}}/>
+            :
+            <S.Image style={{backgroundImage:`url(${image})`, backgroundPositionX: `${type}`}}/>
+        }
       </S.Container>
     );
   }

@@ -38,4 +38,18 @@ export const Container = styled.div`
     align-items: center;
     justify-content: center;
   }
-`
+
+  @media(max-width: 420px){
+
+    height: 180px;
+
+    svg{
+      width: 50px;
+      margin: 0px 20px;
+    }
+    h3{
+      font-size: 13pt;
+    }
+  }
+
+`;
