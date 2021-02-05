@@ -10,6 +10,8 @@ import { ReactComponent as LogoMysql} from '../../Assets/Images/logo_mysql.svg';
 import { ReactComponent as LogoPHP} from '../../Assets/Images/logo_php.svg';
 import { ReactComponent as LogoReact} from '../../Assets/Images/logo_react.svg';
 import { ReactComponent as LogoThree} from '../../Assets/Images/logo_three.svg';
+import { ReactComponent as LogoWip} from '../../Assets/Images/icon_wip.svg';
+import { ReactComponent as LogoPlay} from '../../Assets/Images/logo_play.svg';
 
 function Works({
   description1,
@@ -56,11 +58,15 @@ function Works({
                 return <LogoReact css="logo"/>
                 else if (e === 'three')
                 return <LogoThree css="logo"/>
+                else if (e === 'wip')
+                return <LogoWip css="logo" style={{width:`100px`}}/>
+                else if (e === 'play')
+                return <LogoPlay css="logo"/>
             })}
           </div>
           <hr/>
           { (tech[0]!="unity") &&
-            <div  className="generic-button-work">
+            <div  className="generic-button-work" onClick={()=>window.open(link)}>
               <a href={link} target="_blank">Check this work</a>
             </div>
           }

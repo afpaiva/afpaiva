@@ -1,10 +1,3 @@
-import './style.css';
-import Welcome from '../../Components/Welcome';
-import TechBar from '../../Components/TechBar';
-import Works from '../../Components/Works';
-import GamesTitle from '../../Components/GamesTitle';
-import VideoBar from '../../Components/VideoBar';
-import LogoBar from '../../Components/LogoBar';
 
 import imgCalc from '../../Assets/Images/img_calculator.jpg';
 import imgTour from '../../Assets/Images/img_tour.jpg';
@@ -13,9 +6,21 @@ import imgWquest from '../../Assets/Images/img_wquest.png';
 import imgCloud from '../../Assets/Images/img_cloud.png';
 import imgTictac from '../../Assets/Images/img_tictac.gif';
 
+import './style.css';
+import Welcome from '../../Components/Welcome';
+import TechBar from '../../Components/TechBar';
+import Works from '../../Components/Works';
+import GamesTitle from '../../Components/GamesTitle';
+import VideoBar from '../../Components/VideoBar';
+import LogoBar from '../../Components/LogoBar';
+import Resume from '../../Components/Resume';
+import Footer from '../../Components/Footer';
+import BackgroundAnimation from '../../Components/BackgroundAnimation';
+
 function Home() {
   return (
     <>
+      <BackgroundAnimation/>
       <Welcome/>
       <TechBar/>
 
@@ -34,7 +39,7 @@ function Home() {
         description2={`Made with JavaScript,
         React (web version) React
         Native with Expo.`}
-        tech={["react","js"]}
+        tech={["react","js", "play"]}
         image={imgCalc}
         link={"http://www.ensaios3d.com/calc"}
         />
@@ -82,7 +87,7 @@ function Home() {
         description1={`This is a 3D third person mobile game I’ve been working on free time.`}
         description2={`The idea is to create 3 characters each with a skill. They have to meet each other somewhere in the level. It will have some enemies and traps. A re-reading of The Lost Vikings (Silicon & Synapse 1992) idea.
         But I’ll finish the Cloud Hunter first. See below.`}
-        tech={["unity","blender","csharp"]}
+        tech={["unity","blender","csharp", "wip"]}
         image={imgWquest}
         imageType={"logo"}
 
@@ -98,7 +103,7 @@ function Home() {
         description1={`In this mobile game you can to collect $BlueClouds and travel around the world in an oldstyle airplane.`}
         description2={`It will have IAP and some Ads for monetizing.
         Also under development. This one I’m willing to launch at least a MVP until June-21.`}
-        tech={["unity","blender","csharp"]}
+        tech={["unity","blender","csharp", "wip"]}
         image={imgCloud}
         imageType={"logo"}
         />
@@ -118,6 +123,10 @@ function Home() {
         />
 
       <LogoBar/>
+
+      <Resume/>
+
+      <Footer/>
 
     </>
   );
