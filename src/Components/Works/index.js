@@ -1,5 +1,6 @@
 import * as S from './style';
 import VideoBar from '../../Components/VideoBar';
+
 import { ReactComponent as LogoUnity} from '../../Assets/Images/logo_unity.svg';
 import { ReactComponent as LogoBlender} from '../../Assets/Images/logo_blender.svg';
 import { ReactComponent as LogoCSharp} from '../../Assets/Images/logo_csharp.svg';
@@ -28,6 +29,7 @@ function Works({
 
   function Det() {
     return (
+    
       <div className="det-container">
         <div>
           <h2>{title}</h2>
@@ -59,7 +61,7 @@ function Works({
                 else if (e === 'three')
                 return <LogoThree css="logo"/>
                 else if (e === 'wip')
-                return <LogoWip css="logo" style={{width:`100px`}}/>
+                return <LogoWip css="logo" style={{width:`100px`,fill:`#f42f2c`}}/>
                 else if (e === 'play')
                 return <LogoPlay css="logo"/>
             })}
@@ -97,7 +99,7 @@ function Works({
         <S.Details style={{justifyContent: `flex-end`}}><Det/></S.Details>
         {
           video === 'magnetismo' ? 
-          <VideoBar name="magnetismo" videoHeight="400" videoWidth="400"/>
+          <VideoBar name="magnetismo" videoHeight="500" videoWidth="400"/>
           : 
             imageType === 'logo' ?
             <S.Image style={{backgroundImage:`url(${image})`, backgroundSize: `320px`, backgroundPositionX: `${type}`}}/>

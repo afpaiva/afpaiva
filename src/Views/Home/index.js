@@ -47,12 +47,12 @@ function Home() {
       <Works
         type={"left"}
         background={"dark"}
-        title={"Electromagnetism"}
-        description1={`An academic work. This website was developed to help students to understand the charge effects on a magnet field. Left Hand Rule. Modeled on Blender and interactions made using ThreeJS, and JavaScript.`}
-        description2={`A partnership between the Pontifical Catholic University with CEPOC Poços de Caldas, MG - Brazil.`}
-        tech={["three","js","blender"]}
-        video={"magnetismo"}
-        link={"https://afpaiva.github.io/magnetismo-CEPOC/"}
+        title={"Ensaios3D.com"}
+        description1={`My architectural visualization works website. My principal ocupation nowadays is as 3D architect. But I’m open and working to change my career as developer.`}
+        description2={`Responsive, made using PHP, MySQL (contact form and a simple“administrative” area), JavaScript, HTML and CSS.`}
+        tech={["php","mysql","js"]}
+        image={imgEnsaios}
+        link={"http://ensaios3d.com"}
         />
 
       <Works
@@ -69,16 +69,15 @@ function Home() {
       <Works
         type={"left"}
         background={"dark"}
-        title={"Ensaios3D.com"}
-        description1={`My architectural visualization works website. My principal ocupation nowadays is as 3D architect. But I’m open and working to change my career as developer.`}
-        description2={`Responsive, made using PHP, MySQL (contact form and a simple“administrative” area), JavaScript, HTML and CSS.`}
-        tech={["php","mysql","js"]}
-        image={imgEnsaios}
-        link={"http://ensaios3d.com"}
+        title={"Electromagnetism"}
+        description1={`An academic work. This website was developed to help students to understand the charge effects on a magnet field. Left Hand Rule. Modeled on Blender and interactions made using ThreeJS, and JavaScript.`}
+        description2={`A partnership between the Pontifical Catholic University with CEPOC Poços de Caldas, MG - Brazil.`}
+        tech={["three","js","blender"]}
+        video={"magnetismo"}
+        link={"https://afpaiva.github.io/magnetismo-CEPOC/"}
         />
 
       <GamesTitle/>
-
 
       <Works
         type={"right"}
@@ -94,7 +93,6 @@ function Home() {
         />
 
       <VideoBar name="wingsquest" videoHeight="250"/>
-
 
       <Works
         type={"left"}

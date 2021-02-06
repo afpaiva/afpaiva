@@ -37,19 +37,19 @@ function Resume(){
           <section>
             <h1>André Fonseca de Paiva</h1>
             <p>
-              Graduated Architect and Urbanist, and Graduating in Computer Science at Pontifical Catholic University of Minas Gerais, Poços de Caldas-MG, Brazil. Working with Computer Graphics and development as a self employee since 2004.
+              <spam>Bachelor in Architecture and Urbanism</spam>, and <spam>Graduating in Computer Science</spam> at Pontifical Catholic University of Minas Gerais, Poços de Caldas-MG, Brazil. Working with <spam>Computer Graphics and development</spam> as a self employee since 2004.
             </p>
             <p>
-              My first contact with programming was around 1995, when my father teached me Clipper and FoxBase, since that time I was always fascinated by computers and all the variety of things that could be created. While my first graduation and a few years after, I worked as a freelancer with Web Development, using HTML, ASP and Access, Macromedia Flash and Dreamweaver.
+              My first contact with programming was around 1995, when my father teached me <spam>Clipper and FoxBase</spam>, since that time I was always fascinated by computers and all the variety of things that could be created. While my first graduation (1998-2003) and a few years after, I worked as a freelancer with <spam>Web Development, using HTML, ASP and Access, Macromedia Flash and Dreamweaver</spam>.
             </p>
             <p>
-             In 2004 and 2005, I developed a website to cover the Brazilian Paragliding Championship event. The website gave support to the pilots during subscription, and while the event happened, including pictures, diary articles and staff information. I also made the graphic design, t-shirt design and a CD-ROM (made on Flash), including the label design.
+             In 2004 and 2005, I developed a <spam>website to cover the Brazilian Paragliding Championship</spam> event. The website gave support to the pilots during subscription, and while the event happened, including pictures, diary articles and staff information. I also made the graphic design, t-shirt design and a CD-ROM with event presentation (made on Flash), including the label design.
             </p>
             <p>
-             In a partnership with a friend, musician and bass player, created in 2006 a website like the old Orkut, for bassists to learn and train music. It was made with ASP and ACCESS, and had all the functionalities of Orkut, like embed YouTube Videos, send messages and comments. These are two of a lot of work done in this period.
+             In a partnership with a friend, musician and bass player, created in 2006 a <spam>website like the old Orkut</spam>, for bassists to learn and train music. It was made with <spam>ASP and ACCESS</spam>, and had all the functionalities of Orkut, like embed YouTube Videos, send messages and comments. These are two of a lot of work done in this period.
             </p>
             <p>
-             I had worked in São Paulo - Brazil, on Digital Light Studio for one year (2008), where I refined my knowledge on 3D. Returning to my city I continue working with old clients, and getting more contact. Today, while studying technologies and freelancing, I'm looking for opportunities abroad, where I can share my knowledge, work in a friendly environment, with good people, in a good city, and continue this permanent process of learning.
+             I had worked in São Paulo - Brazil, on <spam>Digital Light Studio</spam> for one year (2008), where I refined my knowledge on 3D. Returning to my city I continue working with old clients, and getting more contact. Today, while studying technologies and freelancing, I'm looking for opportunities abroad, where I can share my knowledge, work in a friendly environment, with good people, in a good city, and continue this permanent process of learning.
             </p>
 
             <h3>Experience:</h3>

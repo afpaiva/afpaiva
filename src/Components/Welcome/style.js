@@ -11,8 +11,28 @@ export const Container = styled.div`
   justify-content: center;
 
   .logo{
-    width: 300px;
     fill: #292929;
+    animation:
+      logo_breath
+      .5s
+      ease
+      0s
+      infinite
+      alternate-reverse
+  }
+
+  .top{
+    position: absolute;
+    top: 0px;
+  }
+
+  @keyframes logo_breath {
+    0%{
+      width: 300px;
+    }
+    100%{
+      width: 310px;
+    }
   }
 
 `

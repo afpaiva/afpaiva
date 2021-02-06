@@ -1,4 +1,5 @@
 import * as S from './style';
+
 import { ReactComponent as Logo } from '../../Assets/Images/logo.svg';
 import { ReactComponent as IconReact } from '../../Assets/Images/logo_react.svg';
 
@@ -15,7 +16,7 @@ function Footer(){
           This portfolio was made using React JS.<br/>
           </p>
 
-        <Logo/>
+        <a href="#top"><Logo/></a>
 
       </div>
     </S.Container>

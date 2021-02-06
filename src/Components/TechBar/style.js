@@ -33,6 +33,11 @@ export const Container = styled.div`
     margin: 0px;
   }
 
+  .anchor{
+    position: absolute;
+    top: 0px;
+  }
+
   .icons{
     display: flex;
     align-items: center;

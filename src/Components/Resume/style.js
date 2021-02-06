@@ -34,6 +34,10 @@ export const Container = styled.div`
     justify-content: flex-end;
   }
 
+  spam{
+    background-color: #ffed93;
+  }
+
 @media(max-width:600px){
   img {
     width: 40vw;
