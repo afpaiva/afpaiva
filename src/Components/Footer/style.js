@@ -16,6 +16,7 @@ export const Container = styled.div`
 
   display: flex;
   align-items: center;
+  z-index: -2;
 
   p{
     font-weight: lighter;
@@ -31,21 +32,33 @@ export const Container = styled.div`
     fill: white;
   }
 
-  .iconReact{
-    position: absolute;
-    width: 350px;
-    height: 350px;
-    fill: #252525;
-    left: 10vw;
-    z-index: 0;
-  }
-
   .container{
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: auto;
     max-width: 750px;
+  }
+
+  .iconReact{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    fill: #252525;
+    left: 10vw;
+    z-index: -1;
+  }
+
+  @media(max-width:450px){
+    .iconReact{
+      position: absolute;
+      width: 350px;
+      height: 350px;
+      fill: #252525;
+      left: -200px;
+      z-index: -1;
+      opacity: .7;
+    }
   }
 
 `;
