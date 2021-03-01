@@ -9,8 +9,7 @@
 📫 My contacts: 
 [LinkedIn](https://www.linkedin.com/in/afpaiva/) | 
 [StackOverflowStory](https://stackoverflow.com/story/afpaiva) |
-[My-DEV-Portfolio](http://www.ensaios3d.com/andrepaiva/) | 
-[My-CG-3D-Portfolio](http://www.ensaios3d.com/) 
+[My-DEV-Portfolio](https://afpaiva.github.io/afpaiva)
 
 <!--
 **afpaiva/afpaiva** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
