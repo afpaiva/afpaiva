@@ -5,23 +5,30 @@
 body {
   background-color: #f8f8f8;
   color: #18181a;
+  margin: 0 20px;
 }
 
 h1 {
-  font-size: 64px;
+  font-size: 48px;
   font-style: normal;
   line-height: normal;
   font-weight: 400;
 }
 
-h3 {
+h2 {
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
 }
 
-h4 {
+h3 {
   font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
 }
@@ -30,6 +37,12 @@ strong {
   font-weight: 700;
 }
 
+small {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
 .highlight {
-  background-color: #fcd34d;
+  background-color: #FFE144;
 }
