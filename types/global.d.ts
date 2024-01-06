@@ -28,6 +28,8 @@ declare global {
     title: string;
     description: string;
     iconsTitle: "From my toolbox:";
+    videoSrc?: string;
+    imageSrc?: string;
     hasDemo: boolean;
     hasRepo: boolean;
     stackIcons: IconsType[];

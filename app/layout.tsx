@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${openSans.className} overflow-x-hidden`}>
         <div className="flex justify-center mt-10">
-          <div className="flex justify-center align-center xl:w-3/5 lg:w-3/4">
+          <div className="flex justify-center align-center md:w-3/4 xl:w-3/5">
             {children}
           </div>
         </div>

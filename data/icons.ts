@@ -25,3 +25,10 @@ export const iconReact: IconsType = {
   hLG: 50,
   alt: "React JS Icon"
 }
+
+export const iconVoluntary: IconsType = {
+  src: "/assets/iconVoluntary.png",
+  wLG: 50,
+  hLG: 50,
+  alt: "Voluntary work icon"
+}
