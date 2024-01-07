@@ -3,7 +3,7 @@ import * as stack from "./icons"
 export const projects: ProjectsTypes = {
   PDF_READER: {
     title: "AI-Powered Resume Extractor",
-    description: "This is not a design-based work, it's about backend and API integrations. This small application reads the PDF and uses AI to get a structured data. Applicants could do they applications quickly, and how recruiters could easily have access to the important data.",
+    description: "This is not a design-based work, it's about backend and API integrations. This small application reads the PDF and uses AI to get a structured data. Applicants could do they applications quickly, in the other hand, recruiters could easily have access to the important data.",
     videoSrc: "/assets/resumereader.mp4",
     iconsTitle: "Stack:",
     repoUrl: "https://github.com/afpaiva/resume-pdf-ai-reader",
@@ -48,7 +48,7 @@ export const projects: ProjectsTypes = {
     description: "Developed a impactful website featuring 360 bubble tours and a captivating orbit simulation around a real estate development using JavaScript, CSS, HTML, and ThreeJS. Tailored for a builder to showcase their properties, this project left a lasting impression on clients, showcasing my ability to create immersive online experiences that enhance real estate marketing and sales efforts.",
     videoSrc: "/assets/polloneo.mp4",
     iconsTitle: "Stack:",
-    tryItUrl: "",
+    tryItUrl: "https://afpaiva.github.io/360-ArchViz-Tour-NeoVarginha/fac.html",
     repoUrl: "",
     stackIcons: [
       stack.icon3Dmax,
@@ -106,7 +106,7 @@ export const projects: ProjectsTypes = {
     description: "A team work during the PAN (Business Acceleration Program) by FUMSOFT. From business canvas to market research and Figma design prototype, we developed an innovative application to empower handcraft artists, connecting them with tourists and events for product showcasing and sales. This project highlights not only my design skills, but my teamwork and adaptability within dynamic startup environments.",
     imageSrc: "/assets/yaap.png",
     iconsTitle: "Stack:",
-    tryItUrl: "",
+    tryItUrl: "https://www.figma.com/proto/nZpUX4zuz9fWfTDeYul6YO/PAN?type=design&node-id=501-180&t=foMFnobPnQX8NO9G-0&scaling=scale-down&page-id=213%3A20",
     repoUrl: "",
     stackIcons: [
       stack.iconVoluntary,

@@ -5,8 +5,10 @@ type ExperienceComponentProps = {
 }
 
 export const Experience = ({ experience }: ExperienceComponentProps) => {
+  const isEducation = !Boolean(experience.stackIcons)
+
   return (
-    <div className="mb-16">
+    <div className={`mb-24 ${isEducation ? "bg-white drop-shadow-md rounded-lg p-6 self-center": ""}`}>
       <strong className="highlight">
         {experience.type}
       </strong>
@@ -19,7 +21,8 @@ export const Experience = ({ experience }: ExperienceComponentProps) => {
       <p className="mt-6">
         {experience.description}
       </p>
-      {!!experience.stackIcons.length &&
+      {
+      !!experience.stackIcons?.length &&
         <div className="mt-8">
           <span className="font-bold underline">{experience.iconsTitle}</span>
           <div className="drop-shadow-md flex mt-3 gap-2 flex-wrap">

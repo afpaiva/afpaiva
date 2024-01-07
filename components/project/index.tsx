@@ -10,7 +10,7 @@ type ProjectComponentProps = {
 export const Project = ({ project }: ProjectComponentProps) => {
 
   return (
-    <div className="mt-8 mb-8 lg:bg-white lg:p-6 lg:drop-shadow-md lg:rounded-lg">
+    <div className="mt-8 mb-20 lg:bg-white lg:p-6 lg:drop-shadow-md lg:rounded-lg">
       <h2 className="mb-5">
         {project.title}
       </h2>

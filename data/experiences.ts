@@ -49,7 +49,7 @@ export const experiences: ExperiencesTypes = {
     type: "Corporate Experience",
     title: "Digital Light Computer Graphics - São Paulo",
     yearFrom: 2008,
-    yearTo: 209,
+    yearTo: 2009,
     description: "At a top studio, specialized in architectural visualization, earning three Monthly Best Exterior Render awards. Crafted exceptional 3D renders for large projects using tools like 3Ds Max, Photoshop, and VRay. Ensured seamless integration and exceeded client expectations through creativity and technical expertise.",
     iconsTitle: "Stack and tools for this role:",
     stackIcons: [
@@ -57,5 +57,38 @@ export const experiences: ExperiencesTypes = {
       stack.iconVray,
       stack.iconPS,
     ]
+  },
+  FREELANCER: {
+    type: "Self-Employed Experience",
+    title: "Archviz Artist and Web Developer",
+    yearFrom: 2003,
+    yearTo: 2008,
+    description: "Developed my own e-commerce platform with ASP/Access. Provided 2D/3D rendering and blueprints for construction projects. Technologies: ASP.NET, Microsoft Access, Macromedia Flash, Macromedia Dreamweaver.",
+    iconsTitle: "Stack and tools for this role:",
+    stackIcons: [
+      stack.icon3Dmax,
+      stack.iconVray,
+      stack.iconPS,
+      stack.iconJS,
+    ]
+  },
+  PUC_CC: {
+    type: "Graduation",
+    title: "Bachelor of Science in Computer Science",
+    yearFrom: 2020,
+    yearTo: 2023,
+    description: "PUC Minas, Pontifícia Universidade Católica de Minas Gerais, Campus Poços de Caldas",
+  },
+  PUC_ARQ: {
+    type: "Graduation",
+    title: "Bachelor of Arts in Architecture and Urbanism",
+    yearFrom: 1998,
+    yearTo: 2004,
+    description: "PUC Minas, Pontifícia Universidade Católica de Minas Gerais, Campus Poços de Caldas",
+  },
+  CERT1: {
+    type: "FreeCodeCamp",
+    title: "Front End Development Libraries",
+    yearFrom: 2022,
   },
 }

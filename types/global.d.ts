@@ -2,6 +2,14 @@ export { };
 
 declare global {
 
+  type CertificationsTypes = {
+    [key: string]: CertificationTypes
+  }
+
+  type CertificationTypes = {
+    certificationUrl: string;
+  }
+
   type ExperiencesTypes = {
     [key: string]: ExperienceTypes
   }
@@ -10,14 +18,14 @@ declare global {
     type:
     "Corporate Experience" |
     "Graduation" |
-    "Certificate" |
-    "Self-Employed Experience";
+    "Self-Employed Experience" |
+    string;
     title: string;
-    description: string;
+    description?: string;
     yearFrom: number;
-    yearTo: number;
-    iconsTitle: "Stack and tools for this role:";
-    stackIcons: IconsType[];
+    yearTo?: number;
+    iconsTitle?: "Stack and tools for this role:";
+    stackIcons?: IconsType[];
   }
 
   type ProjectsTypes = {

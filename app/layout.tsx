@@ -15,14 +15,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`${openSans.className} overflow-x-hidden`}>
-        <div className="flex justify-center mt-10">
-          <div className="flex justify-center align-center md:w-3/4 xl:w-3/5">
-            {children}
+      <html lang="en">
+        <body className={`${openSans.className} overflow-x-hidden`}>
+          <div id="top" />
+          <div className="flex justify-center mt-10">
+            <div className="flex justify-center align-center md:w-3/4 xl:w-3/5">
+              {children}
+            </div>
           </div>
-        </div>
-      </body>
-    </html>
+        </body>
+      </html>
   );
 }
