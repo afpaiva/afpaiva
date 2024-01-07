@@ -19,7 +19,7 @@ export const Header = () => {
           <br /> for Digital Solutions
         </h1>
         <div className="flex flex-col lg:flex-row lg:flex-wrap justify-center gap-2">
-          <h4>I'm Andre Paiva, a</h4>
+          <h4>I{`'`}m Andre Paiva, a</h4>
           <h4><strong className="highlight">fullstack developer</strong></h4>
           <h4>merging</h4>
           <h4><strong className="highlight">design and code</strong>.</h4>

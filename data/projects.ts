@@ -19,7 +19,7 @@ export const projects: ProjectsTypes = {
   VIZSCOPE: {
     title: "VizScope - Archviz Freelancers Platform",
     description: "Developed a prototype platform for facilitating architectural visualization freelancer collaborations. Leveraged technologies such as Next.js, Amazon S3, EC2, Node.js, React, PostgreSQL, and Radix UI to create an innovative solution supporting seamless communication and project management within the architectural visualization community.",
-    imageSrc: "/assets/8.jpg",
+    videoSrc: "/assets/vizscope.mp4",
     iconsTitle: "From my toolbox:",
     hasDemo: true,
     hasRepo: true,
