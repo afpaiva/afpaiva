@@ -7,7 +7,7 @@ type YearTypes = {
 
 export const Year = ({ year }: YearTypes) => {
   return (
-    <div className="my-10">
+    <div className="mt-10 mb-8">
       <h3>{year}</h3>
       <Image src={divider.src} width={divider.wLG} height={divider.hLG} alt={divider.alt} />
     </div>

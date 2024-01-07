@@ -14,6 +14,20 @@ export default function Home() {
       <Year year={2023} />
       <Project project={projects.VIZSCOPE} />
       <Experience experience={experiences.PROJECT_MANAGER} />
+      <Experience experience={experiences.QA_DESIGNER} />
+      <Year year={2022} />
+      <Project project={projects.LOTONAWEB} />
+      <Project project={projects.YAAP} />
+      <Year year={2020} />
+      <Project project={projects.POLLO_NEO} />
+      <Project project={projects.ELETROMAGNETISMO} />
+      <Project project={projects.CLOUD_HUNTER} />
+      <Year year={2019} />
+      <Project project={projects.WINGS_QUEST} />
+      <Year year={2009} />
+      <Experience experience={experiences.ENSAIOS3D} />
+      <Year year={2008} />
+      <Experience experience={experiences.DIGITAL_LIGHT} />
     </main>
   );
 }

@@ -6,7 +6,7 @@ type ExperienceComponentProps = {
 
 export const Experience = ({ experience }: ExperienceComponentProps) => {
   return (
-    <div>
+    <div className="mb-16">
       <strong className="highlight">
         {experience.type}
       </strong>
@@ -22,7 +22,7 @@ export const Experience = ({ experience }: ExperienceComponentProps) => {
       {!!experience.stackIcons.length &&
         <div className="mt-8">
           <span className="font-bold underline">{experience.iconsTitle}</span>
-          <div className="flex mt-3 gap-2">
+          <div className="flex mt-3 gap-2 flex-wrap">
             {experience.stackIcons.map(
               (icon: IconsType) =>
                 <Image
