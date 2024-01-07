@@ -26,12 +26,12 @@ declare global {
 
   type ProjectTypes = {
     title: string;
-    description: string;
-    iconsTitle: "From my toolbox:";
+    description: any;
+    iconsTitle: "Stack:";
     videoSrc?: string;
     imageSrc?: string;
-    hasDemo: boolean;
-    hasRepo: boolean;
+    tryItUrl?: string;
+    repoUrl?: string;
     stackIcons: IconsType[];
     layoutPosition?: "left" | "right";
   }

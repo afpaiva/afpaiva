@@ -14,7 +14,7 @@ export const divider: MediaType = {
 
 export const btnGitHub: IconsType = {
   src: "/assets/icon-gh.png",
-  wLG: 42,
+  wLG: 40,
   hLG: 40,
   alt: "GitHub Icon"
 }

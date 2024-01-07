@@ -3,10 +3,10 @@ import * as stack from "./icons"
 export const experiences: ExperiencesTypes = {
   PROJECT_MANAGER: {
     type: "Corporate Experience",
-    title: "Project Manager",
+    title: "Project Manager - Team Leader",
     yearFrom: 2022,
     yearTo: 2023,
-    description: "Managed the development of an internal HR platform using React JS and Node. Oversaw the development of React apps for a key client.",
+    description: "Worked as Project Manager on the development of an internal HR platform using React JS and Node. Also, oversaw the development of React apps for a key client.",
     iconsTitle: "Stack and tools for this role:",
     stackIcons: [
       stack.iconNode,
@@ -21,7 +21,7 @@ export const experiences: ExperiencesTypes = {
     title: "Quality Assurance and Designer",
     yearFrom: 2022,
     yearTo: 2023,
-    description: "Designed mobile apps and web from wireframes to prototype using Adobe Photoshop, Adobe Illustrator and Figma. Developed frontend in ReactJS and worked on NodeJS with Express backend API. Conducted automated tests in Cypress and Jest, as well as manual testing. Managed PostgreSQL database and AWS services (EC2, S3).",
+    description: "Was hired with two different roles for the same company: Designer and Developer. As a designer worked on web and mobile apps wireframes and prototypes using Adobe XD, Photoshop and Figma. And as a developer, worked on frontend in ReactJS, backend with NodeJS and PostgreSQL, and tests automation.",
     iconsTitle: "Stack and tools for this role:",
     stackIcons: [
       stack.iconCypress,
