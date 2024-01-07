@@ -83,7 +83,7 @@ export const iconJest: IconsType = {
 }
 
 export const icon3Dmax: IconsType = {
-  src: "/assets/icon3Dmax.png",
+  src: "/assets/icon3dmax.png",
   wLG: 120,
   hLG: 50,
   alt: "3Dmax icon"
@@ -139,8 +139,8 @@ export const iconBlender: IconsType = {
 }
 
 export const iconCsh: IconsType = {
-  src: "/assets/iconCsh.png",
-  wLG: 50,
+  src: "/assets/iconCSh.png",
+  wLG: 45,
   hLG: 50,
   alt: "C# icon"
 }

@@ -56,7 +56,6 @@ export const experiences: ExperiencesTypes = {
       stack.icon3Dmax,
       stack.iconVray,
       stack.iconPS,
-      stack.iconAE,
     ]
   },
 }
