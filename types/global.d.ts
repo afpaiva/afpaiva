@@ -15,16 +15,12 @@ declare global {
   }
 
   type ExperienceTypes = {
-    type:
-    "Corporate Experience" |
-    "Graduation" |
-    "Self-Employed Experience" |
-    string;
+    type: string;
     title: string;
     description?: string;
-    yearFrom: number;
+    yearFrom?: number;
     yearTo?: number;
-    iconsTitle?: "Stack and tools for this role:";
+    iconsTitle?: string;
     stackIcons?: IconsType[];
   }
 

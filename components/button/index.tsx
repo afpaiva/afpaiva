@@ -1,5 +1,5 @@
 type ButtonType = {
-  children: string;
+  children: string | undefined;
   onClick?: (e?: any) => void;
 }
 

@@ -2,6 +2,7 @@
 import { btnGitHub } from "@/data/media"
 import Image from "next/image"
 import { Button } from "../button"
+import { t } from "@/data/texts"
 
 type ProjectComponentProps = {
   project: ProjectTypes
@@ -12,13 +13,11 @@ export const Project = ({ project }: ProjectComponentProps) => {
   return (
     <div className="mt-8 mb-20 lg:bg-white lg:p-6 lg:drop-shadow-md lg:rounded-lg">
       <h2 className="mb-5">
-        {project.title}
+        {t(project.title)}
       </h2>
       <div className={`flex flex-col lg:flex-row justify-between w-full ${project.layoutPosition === "right" && "lg:flex-row-reverse"} flex-col-reverse`}>
-        <div className={`${project.layoutPosition === "right" ? "lg:ms-8" : "lg:me-8"} self-center lg:self-start`}>
-          <p className="mb-8 max-w-[550px]">
-            {project.description}
-          </p>
+        <div className={`${project.layoutPosition === "right" ? "lg:ms-8" : "lg:me-8"} self-center`}>
+          <div className="mb-8 max-w-[550px]" dangerouslySetInnerHTML={{ __html: t(project.description || "") }} />
           {!!project.stackIcons.length &&
             <div className="mb-8 flex flex-col">
               <span className={`font-bold underline ${project.layoutPosition === "right" ? "lg:self-end" : ""}`}>{project.iconsTitle}</span>
@@ -59,7 +58,7 @@ export const Project = ({ project }: ProjectComponentProps) => {
               <Button
                 onClick={() => window.open(project.tryItUrl, "_blank")}
               >
-                Try it
+                {t("TRY_IT")}
               </Button>}
             {project.repoUrl &&
               <Image
