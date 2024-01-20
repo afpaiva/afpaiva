@@ -1,10 +1,9 @@
 'use client'
+import { t } from "@/data/texts";
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { texts } from "@/data/texts";
 
 export const Menu = () => {
-  const language = window.navigator.language;
   const [scroll, setScroll] = useState(0);
   const myPhone = "+5535992449829"
 
@@ -23,14 +22,13 @@ export const Menu = () => {
           className="hidden transition-scale duration-100 lg:inline-block align-middle justify-center rounded-full px-6 py-3 drop-shadow-xl bg-white hover:scale-105"
           href="#education"
         >
-          <strong>Education</strong>
-          {/* <strong>{texts[language].EDUCATION}</strong> */}
+          <strong>{t("EDUCATION")}</strong>
         </a>
         <a
           className="hidden transition-scale duration-100 lg:inline-block align-middle justify-center rounded-full px-6 py-3 drop-shadow-xl bg-white hover:scale-105"
           href="#certificates"
         >
-          <strong>Certificates</strong>
+          <strong>{t("CERTIFICATES")}</strong>
         </a>
         <a
           className="transition-scale duration-100 inline-block align-middle justify-center rounded-full px-3 py-3 drop-shadow-xl bg-white hover:scale-105"

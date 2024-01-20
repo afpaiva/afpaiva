@@ -1,3 +1,4 @@
+'use client'
 import { Experience } from "@/components/experience";
 import { Header } from "@/components/header";
 import { Project } from "@/components/project";
@@ -7,9 +8,19 @@ import { Certificate } from "@/components/certificate";
 import { projects } from "@/data/projects";
 import { experiences } from "@/data/experiences";
 import { certificates } from "@/data/certifications";
+import { useEffect, useState } from "react";
+import { t } from "@/data/texts";
 
 export default function Home() {
+  const [loaded, setLoaded] = useState(false)
+
+  useEffect(() => {
+    t('')
+    setLoaded(true)
+  }, [])
+
   return (
+    loaded &&
     <main>
       <Menu />
       <Header />
@@ -22,6 +33,8 @@ export default function Home() {
       <Year year={2022} />
       <Project project={projects.LOTONAWEB} />
       <Project project={projects.YAAP} />
+      <Year year={2021} />
+      <Project project={projects.ATHENA} />
       <Year year={2020} />
       <Project project={projects.POLLO_NEO} />
       <Project project={projects.ELETROMAGNETISMO} />
@@ -32,8 +45,6 @@ export default function Home() {
       <Experience experience={experiences.ENSAIOS3D} />
       <Year year={2008} />
       <Experience experience={experiences.DIGITAL_LIGHT} />
-      <Year year={2003} />
-      <Experience experience={experiences.FREELANCER} />
       <div id="education" />
       <Experience experience={experiences.PUC_CC} />
       <Experience experience={experiences.PUC_ARQ} />

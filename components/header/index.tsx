@@ -1,5 +1,7 @@
+'use client'
 import Image from "next/image";
 import { myAvatar } from "@/data/media";
+import { t } from "@/data/texts";
 
 export const Header = () => {
   return (
@@ -15,14 +17,14 @@ export const Header = () => {
       </div>
       <div className="flex flex-col justify-around text-center">
         <h1>
-          <strong>Creative Development</strong>
-          <br /> for Digital Solutions
+          <strong>{t("CREATIVE_DEVELOPMENT")}</strong>
+          <br /> {t("DIGITAL_SOLUTIONS")}
         </h1>
         <div className="flex flex-col lg:flex-row lg:flex-wrap justify-center gap-2">
-          <h4>I{`'`}m Andre Paiva, a</h4>
-          <h4><strong className="highlight">fullstack developer</strong></h4>
-          <h4>merging</h4>
-          <h4><strong className="highlight">design and code</strong>.</h4>
+          <h4>{t("IM_ANDRE")}</h4>
+          <h4><strong className="highlight">{t("FULLSTACK_DEV")}</strong></h4>
+          <h4>{t("MERGING")}</h4>
+          <h4><strong className="highlight">{t("DESIGN_CODE")}</strong>.</h4>
         </div>
       </div>
     </div>
