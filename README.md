@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hey, I'm Andre Paiva)! 👋
 
-## Getting Started
+## About Me
+Enthusiastic Full Stack Engineer and Project Manager, specializing in creating fluid user experiences. My journey involves a blend of code crafting and project leadership, aimed at delivering impactful digital solutions.
 
-First, run the development server:
+## Skills
+- **Languages:** JavaScript / TypeScript
+- **Frontend:** React.js / HTML / CSS / ThreeJS
+- **Backend:** Node.js / Express / PostgreSQL / Prisma / TypeORM
+- **Design Tools:** Adobe Suite / Figma
+- **Testing:** Automated (Cypress / Jest / Mocha) and Manual
+- **Cloud Services:** AWS (EC2 / S3)
+- **3D Visualization:** AutoCad / 3DSMax / Vray / Blender / Unity 3D
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Side Projects
+- **Lotonaweb (2022 - Present)**
+  - Unique platform for lottery reduction and math services.
+  - Tech Stack: Next JS, Node JS, Express, AWS S3, PostgreSQL.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **VizScope (2023)**
+  - Architectural visualization freelancer platform.
+  - Tech Stack: Next JS, Node JS, Express, AWS S3, PostgreSQL, AWS EC2
