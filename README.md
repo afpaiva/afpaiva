@@ -1,5 +1,8 @@
 # Hey, I'm Andre Paiva)! 👋
 
+## My portfolio
+[www.afpaiva.dev](https://www.afpaiva.dev)
+
 ## About Me
 Enthusiastic Full Stack Engineer and Project Manager, specializing in creating fluid user experiences. My journey involves a blend of code crafting and project leadership, aimed at delivering impactful digital solutions.
 
